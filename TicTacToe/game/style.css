@@ -1,0 +1,229 @@
+body {
+    background: url(../pictures/bg2.png)
+}
+
+.button {
+    height: 75px;
+    width: 75px;
+}
+
+#btn1 {
+    position: fixed;
+    top: 35%;
+    left: 44%;
+}
+
+#btn2 {
+    position: fixed;
+    top: 35%;
+    left: 50%;
+}
+
+#btn3 {
+    position: fixed;
+    top: 35%;
+    left: 56%;
+}
+
+#btn4 {
+    position: fixed;
+    top: 47.5%;
+    left: 44%;
+}
+
+#btn5 {
+    position: fixed;
+    top: 47.5%;
+    left: 50%;
+}
+
+#btn6 {
+    position: fixed;
+    top: 47.5%;
+    left: 56%;
+}
+
+#btn7 {
+    position: fixed;
+    top: 60%;
+    left: 44%;
+}
+
+#btn8 {
+    position: fixed;
+    top: 60%;
+    left: 50%;
+}
+
+#btn9 {
+    position: fixed;
+    top: 60%;
+    left: 56%;
+}
+
+#displayPlayer {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+}
+
+text {
+    width: 200px;
+    height: 70px;
+    position: fixed;
+    top: 5%;
+    left: 45%;
+}
+
+#displayPlayer {
+    height: 50px;
+    width: 500px;
+    position: fixed;
+    top: 10%;
+    left: 45%;
+}
+
+#info {
+    height: 25px;
+    width: 500px;
+    position: fixed;
+    top: 15%;
+    left: 40%;
+    color: red;
+}
+
+#goBtn {
+    height: 75px;
+    width: 75px;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+}
+
+#startBtn {
+    width: 125px;
+    height: 75px;
+    position: fixed;
+    top: 35%;
+    left: 45%;
+}
+
+#kiBtn {
+    width: 125px;
+    height: 75px;
+    position: fixed;
+    top: 50%;
+    left: 45%;
+}
+
+#backBtn {
+    width: 75px;
+    height: 75px;
+    position: fixed;
+    top: 2.5%;
+    left: 2.5%;
+}
+
+#winsLabel {
+    width: 30;
+    height: 500;
+    position: fixed;
+    top: 2.5%;
+    left: 80%;
+}
+
+#wins1 {
+    width: 30;
+    height: 500;
+    position: fixed;
+    top: 10%;
+    left: 80%;
+}
+
+#wins2 {
+    width: 30;
+    height: 500;
+    position: fixed;
+    top: 17.5%;
+    left: 80%;
+}
+
+#draw {
+    width: 30;
+    height: 500;
+    position: fixed;
+    top: 25%;
+    left: 80%;
+}
+
+#settingBtn {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: 5%;
+    left: 2.5%;
+}
+
+#statsBtn {
+    width: 100px;
+    height: 75px;
+    position: fixed;
+    top: 25%;
+    left: 45%;
+}
+
+#resetStatsBtn {
+    width: 100px;
+    height: 75px;
+    position: fixed;
+    top: 40%;
+    left: 45%;
+}
+
+#settingsInfoGames {
+    width: 500px;
+    height: 75px;
+    position: fixed;
+    top: 25%;
+    left: 75%;
+}
+
+#settingsInfoPlayer1 {
+    width: 500px;
+    height: 75px;
+    position: fixed;
+    top: 30%;
+    left: 75%;
+}
+
+#settingsInfoPlayer2 {
+    width: 500px;
+    height: 75px;
+    position: fixed;
+    top: 35%;
+    left: 75%;
+}
+
+#settingsInfoDraws {
+    width: 500px;
+    height: 75px;
+    position: fixed;
+    top: 40%;
+    left: 75%;
+}
+
+#backToMSbBtn {
+    width: 75px;
+    height: 75px;
+    position: fixed;
+    top: 2.5%;
+    left: 92%;
+}
+
+#setKiBtn {
+    width: 100px;
+    height: 75px;
+    position: fixed;
+    top: 55%;
+    left: 45%;
+}

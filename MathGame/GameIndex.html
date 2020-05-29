@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head id="head">
+    <p>
+        <u>
+        <h1 id="title">Math Game</h1><h1 id="title2"> by Fabi </h1>
+        </u>
+    </p>
+</head>
+
+<body>
+    <button onclick="backToGS()" id="backToMSbBtn">Back</button>
+    <div id="start">
+        <label for="settingButton">Settings</label>
+        <button onclick="settingFile()" id="settingButton">Go to settings</button><br> <br>
+
+        <button onclick="start()" id="startButton">Start Game</button>
+    </div>
+    <div id="Timer">
+        <h3>
+            <p id="timerDis">
+
+            </p>
+        </h3>
+        <div id="infos">
+            <p id="points">0 points</p>
+            <p id="zahlen"></p>
+        </div>
+    </div>
+    <div id="aufgabe">
+        <p id="aufgabenFeld">Druecken sie "Start Game" fuer Aufgaben</p>
+        <p id="infoP"></p>
+    </div>
+    <div id="eingabe">
+        <input type="number" id="eingabeInp" placeholder="Loesung" onkeypress="if (window.event.keyCode == 13) checkAnswer()" required> <br>
+        <button onclick="checkAnswer() ">Submit</button>
+    </div>
+    <div id="commands">
+        <select id="cmds"> Commands
+            <option disabled="disabled">Select command.</option>
+            <option value="addTimer">Add Timer</option>
+            <option value="removeTimer">Remove Timer</option>
+            <option value="lösung">Loesung</option>
+          </select> <br>
+        <p id="cmdDisplay"></p>
+        <button onclick="checkCmd()">Submit</button>
+    </div>
+
+</body>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="Game.js"></script>
+<script src="look.js"></script>
+<script src="timer.js"></script>
+<script src="cmds.js"></script>
+<script src="auto.js"></script>
+<script src="fileSwitch.js"></script>
+<script src="settings.js"></script>
+<audio id="hupenSound">
+<source src="hupe.mp3">
+    </audio>
+
+</html>

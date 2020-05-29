@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+
+<head>
+    <meta charset="UTF-8 ">
+    <title>Ping Pong</title>
+</head>
+
+<body>
+    <canvas id="gameScreen" width="480px" height="320px">
+    </canvas>
+    <button onclick="start()" id="startBtn">Start</button>
+    <div id=debugging>
+        <input type="text" id="cmdI" placeholder="commands" onkeypress="if (window.event.keyCode == 13) cmd()" required>
+        <h1 id="dbDis"></h1>
+        <h1 id="cmdDis"></h1>
+    </div>
+</body>
+<script src="script.js "></script>
+
+</html>

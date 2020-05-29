@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="/site/style.css">
+
+<text id="titleField"><u> <h1 id="title">Gamesite</h1><h1 id="title2"> by Fabi </h1></u> </text>
+
+
+<body>
+    <link rel="shortcut icon" href="pictures/idk.png" />
+    <title>Fabis Site</title>
+    <div id="pwDiv">
+        <button onclick="genPW()" id="pwBTN">
+            GENPW
+            </button>
+    </div>
+    <div id="mathGameDiv">
+        <h1>MathGame</h1>
+        <img src="../pictures/MathGame.png" onclick="goToMG()">
+    </div>
+    <div id="ticTacToeDiv">
+        <h1>TicTacToe</h1>
+        <img src="../pictures/TicTacToe.png" onclick="goToTTT()">
+    </div>
+    <div id="PingPongDiv">
+        <h1>Ping Pong (Beta)</h1>
+        <img src="../pictures/pingPong.png" onclick="goToPP()">
+    </div>
+
+</body>
+<script>
+    function change() {
+        var randomColor = Math.floor(Math.random() * 16777215).toString(16);
+        document.getElementById("title").style.color = "#" + randomColor;
+        var randomColor2 = Math.floor(Math.random() * 16777215).toString(16);
+        document.getElementById("title2").style.color = "#" + randomColor2;
+    }
+    setInterval(change, 1000);
+</script>
+<script src="/site/script.js"></script>
+<script src="/site/switchScript.js"></script>
+
+</html>

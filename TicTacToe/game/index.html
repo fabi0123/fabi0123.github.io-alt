@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+
+
+
+<text>  <h1 id="title">Tic Tac Toe</h1><h1 id="title2"> by Fabi </h1> </text>
+
+
+
+<body>
+    <br><br><br>
+    <button id="startBtn" onclick="startGame()">Start Game</button> <br>
+    <button id="kiBtn" onclick="ki()">Play versus AI</button>
+    <button onclick="backToGS()" id="backToMSbBtn">Back</button>
+    <img id="settingBtn" onclick="goToSettings()" src="../pictures/settings.png"></img>
+
+</body>
+<script src="switch.js"></script>
+
+<script>
+    function change() {
+        var randomColor = Math.floor(Math.random() * 16777215).toString(16);
+        document.getElementById("title").style.color = "#" + randomColor;
+        var randomColor2 = Math.floor(Math.random() * 16777215).toString(16);
+        document.getElementById("title2").style.color = "#" + randomColor2;
+    }
+    setInterval(change, 1000);
+
+    function ki() {
+        alert("coming soon")
+    }
+</script>
+
+</html>
